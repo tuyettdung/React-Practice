@@ -14,6 +14,12 @@ export default class Header extends Component {
             <li className="nav-item">
               <NavLink className={({isActive})=> isActive ? 'nav-link bg-white text-dark': 'nav-link'} to="/glasses" style={({isActive}) => isActive ? {border:'1px solid orange'}:{}}>BT Thử Kính</NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className={({isActive})=> isActive ? 'nav-link bg-white text-dark': 'nav-link'} to="/shoeshop" style={({isActive}) => isActive ? {border:'1px solid orange'}:{}}> Shoe Shop</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className={({isActive})=> isActive ? 'nav-link bg-white text-dark': 'nav-link'} to="/react-form" style={({isActive}) => isActive ? {border:'1px solid orange'}:{}}> React Form</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
